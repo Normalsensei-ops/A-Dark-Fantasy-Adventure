@@ -31,7 +31,7 @@
         constructor() {
           super();
           this.addEventListener("progress", e => {
-            indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB of YOUR-SIZE-HERE MB` :
+            indicator.innerText = " Loading data: " + (!e.total ? `${(e.loaded/1024**2).toFixed(1)} MB of 18.957 MB` :
               `${(100 * e.loaded / e.total).toFixed(2)}%`)
           });
           this.addEventListener("loadend", () => {
@@ -50,3 +50,4 @@
 
 
 </html>
+
